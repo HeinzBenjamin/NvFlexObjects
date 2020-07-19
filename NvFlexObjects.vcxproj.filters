@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{b65dcb2e-495e-4795-963a-2724b14c07d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{009dfaa0-dde1-4f0d-997b-fcfd2e2760be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples">
+      <UniqueIdentifier>{25d6c209-2f41-4090-89d3-cadbe5739577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\include">
+      <UniqueIdentifier>{3d79005e-bd24-4992-8067-144a4c88270c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Collider.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Constraint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConstraintSpring.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ForceField.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Particle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ParticleSystem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Collider.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConstraintSpring.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ForceField.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NvFlexObjects.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Particle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ParticleSystem.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\include\NvFlex.h">
+      <Filter>vendor\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
