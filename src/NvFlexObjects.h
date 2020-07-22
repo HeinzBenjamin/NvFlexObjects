@@ -1,5 +1,6 @@
 #pragma once
 
+#include "Vector.h"
 
 // Basic particle
 #include "Particle.h"

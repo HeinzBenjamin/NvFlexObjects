@@ -10,11 +10,11 @@ namespace NvFlexObjects {
 	private:
 		float3* _ParticleBuffer;
 	public:
-		ParticleSystem ParticleSystem;
+		std::vector<ParticleSystem> ParticleSystems;
 		std::vector<Collider> Colliders;
 		std::vector<ForceField> ForceFields;
 
-		Scene();
+		NFO_API Scene();
 	};
 }
 

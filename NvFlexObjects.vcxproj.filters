@@ -74,5 +74,8 @@
     <ClInclude Include="vendor\include\NvFlex.h">
       <Filter>vendor\include</Filter>
     </ClInclude>
+    <ClInclude Include="src\Vector.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
